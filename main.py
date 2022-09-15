@@ -47,8 +47,8 @@ while iniciar_trivia == True: #  Mientras iniciar_trivia sea True, repite:
   
   
  # Pregunta 1
-  print (YELLOW +"1) ¿Quién fue el creador de windows?")
-  print ("a) Linus Torvalds")
+  print (YELLOW +"1) ¿Quién fue el creador de windows?\n"+RESET)
+  print (MAGENTA+"a) Linus Torvalds")
   print ("b) Bill Gates")
   print ("c) Mark Zuckerberg")
   print ("d) Dennis Ritchie"+RESET)
@@ -64,8 +64,8 @@ while iniciar_trivia == True: #  Mientras iniciar_trivia sea True, repite:
     print ("Incorrecto", nombre, "!")
   print(RED + nombre, "llevas", puntaje, "puntos" + RESET)
   # Pregunta 2
-  print (YELLOW+"\n2) ¿Cual de estos lenguajes de programación es de más bajo nivel?")
-  print ("a) Python")
+  print (YELLOW+"\n2) ¿Cual de estos lenguajes de programación es de más bajo nivel?\n"+RESET)
+  print (MAGENTA+"a) Python")
   print ("b) Java")
   print ("c) PHP")
   print ("d) Assembly"+RESET)
@@ -88,8 +88,8 @@ while iniciar_trivia == True: #  Mientras iniciar_trivia sea True, repite:
 
 
   # Pregunta 3
-  print (YELLOW +"\n3) ¿Quién fue el creador de FACEBOOK?")
-  print ("a) Linus Torvalds")
+  print (YELLOW +"\n3) ¿Quién fue el creador de FACEBOOK?\n"+RESET)
+  print (MAGENTA+"a) Linus Torvalds")
   print ("b) Bill Gates")
   print ("c) Mark Zuckerberg")
   print ("d) Dennis Ritchie"+RESET)
@@ -107,8 +107,8 @@ while iniciar_trivia == True: #  Mientras iniciar_trivia sea True, repite:
 
 
   # Pregunta 4
-  print (YELLOW+"\n4)¿En que lenguaje se progamo Minecraft?")
-  print ("a) Python")
+  print (YELLOW+"\n4)¿En que lenguaje se progamo Minecraft?\n"+RESET)
+  print (MAGENTA+"a) Python")
   print ("b) Java")
   print ("c) PHP")
   print ("d) Assembly"+RESET)
