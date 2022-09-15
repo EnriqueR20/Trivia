@@ -26,6 +26,9 @@ print (MAGENTA + "Bienvenido a mi trivia sobre computación" + RESET)
 # Para implementar puntajes, crearemos una nueva variable llamada "puntaje", la que inicializamos en 0.
 puntaje = random.randint(0, 10)
 
+nombre = input ("Ingresa tu nombre: ")
+print (GREEN+"\nHola",nombre, "responde las siguientes preguntas escribiendo la letra de la alternativa y presionando 'Enter' para enviar tu respuesta:\n"+RESET)
+
 
 iniciar_trivia = True  # Iniciamos la variable en True
 intentos = 0  # variable que almacenará el número de veces que el usuario intenta nuestra trivia.
@@ -41,10 +44,6 @@ while iniciar_trivia == True: #  Mientras iniciar_trivia sea True, repite:
   print ("Pondremos a prueba tus conocimientos")
   print (CYAN+"Tienes", puntaje, "puntos"+RESET)
 
-  nombre = input ("Ingresa tu nombre: ")
-  print (GREEN+"\nHola",nombre, "responde las siguientes preguntas escribiendo la letra de la alternativa y presionando 'Enter' para enviar tu respuesta:\n"+RESET)
-
-  
   
  # Pregunta 1
   print (YELLOW +"1) ¿Quién fue el creador de windows?\n"+RESET)
