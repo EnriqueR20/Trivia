@@ -84,7 +84,7 @@ while iniciar_trivia == True: #  Mientras iniciar_trivia sea True, repite:
   else:
     puntaje += 10
     print ("Muy bien", nombre, "!")
-  print(nombre, "llevas", puntaje, "puntos")
+  print(RED+nombre, "llevas", puntaje, "puntos"+RESET)
 
 
   # Pregunta 3
@@ -103,7 +103,7 @@ while iniciar_trivia == True: #  Mientras iniciar_trivia sea True, repite:
     print ("Muy bien", nombre, "!")
   else:
     print ("Incorrecto", nombre, "!")
-  print(nombre, "llevas", puntaje, "puntos")
+  print(RED+nombre, "llevas", puntaje, "puntos"+RESET)
 
 
   # Pregunta 4
